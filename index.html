@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style></style>
+            </head>
+            <body>
+                
+
+
+    <meta charset="UFT-8">
+<title>今日氣運</title>
+
+
+    <center>
+        <h1>今日氣運</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUQRMZP7Iz50feUkRMtstHu0DWTCfNJjf5gIhpfWTGZoxYIvUibHPjoKk&amp;s" height="150"><br>
+        <button onclick="buddha()">求取氣運</button>
+        <p id="result">蟄龍潛深淵，風雷且待時，三冬寒徹骨，必有陽春期</p>
+        </center>
+
+
+
+                <script>var verses=[
+    "雲開見月明，前路自分清，若遇知音者，同舟萬里行",
+"鶴舞九天風，鵬程在眼中，積善終有慶，不必問窮通",
+"石中藏美玉，時至自光華，莫道耕耘苦，秋來滿田花",
+"急水遇危灘，把舵要心專，臨崖須勒馬，過後是平川",
+"寶鏡塵封久，一朝拭垢埃，菱花重照影，桂子香入懷",
+"藤蘿附松柏，相依可歲寒，莫學浮萍草，隨波聚散難",
+"蟄龍潛深淵，風雷且待時，三冬寒徹骨，必有陽春期",
+"種豆南山下，勤耕自有年，不求金玉貴，倉廩足安然",
+"星斗轉銀河，天機未可猜，靜觀雲卷舒，心寬福自來",
+"舊燕歸畫梁，滄海變桑田，且盡杯中酒，花開月正圓"
+]
+
+
+
+function buddha(){
+    var random = parseInt(Math.random() * 10);
+    document.getElementById("result").innerText = verses[random];
+}</script>
+            
+        
+    </body>
