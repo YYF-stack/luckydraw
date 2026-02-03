@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+                <style></style>
+            </head>
+            <body>
+                
+
+
+    <meta charset="UFT-8">
+<title>My 1st Mini test 第一個小測試</title>
+
+
+    <h3>翻譯小測試</h3>
+    Q1. Apple = ?<br>
+    <input type="radio" name="q1" id="ans1">李子
+    <input type="radio" name="q1" id="ans2">香蕉
+    <input type="radio" name="q1" id="ans3">蘋果
+    <button onclick="question1()">Attempt</button>
+    <p id="results1"></p>
+
+    Q2. Pear = ?<br>
+    <input type="radio" name="q2" id="ans4">李子
+    <input type="radio" name="q2" id="ans5">香蕉
+    <input type="radio" name="q2" id="ans6">蘋果
+    <button onclick="question2()">Attempt</button>
+    <p id="results2"></p>
+
+    Q3. Liulian = ?<br>
+    <input type="radio" name="q3" id="ans7">李子
+    <input type="radio" name="q3" id="ans8">香蕉
+    <input type="radio" name="q3" id="ans9">蘋果
+    <button onclick="question3()">Attempt</button>
+    <p id="results3">you will get a band score 9 in IELTS</p>
+
+
+
+                <script>function question1(){
+    var ans1 = document.getElementById("ans1");
+    var ans2 = document.getElementById("ans2");
+    var ans3 = document.getElementById("ans3");
+
+    if(ans3.checked){
+        document.getElementById("results1").innerText ="you will get a band score 9 in IELTS";
+        
+    }else {
+        document.getElementById("results1").innerHTML = 
+        "You will get a band score 1 in IELTS <img src ='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe-1JpxxnIiXOTF1bonucAssSiYMVBFfMPBA&s'>";
+        
+    }
+}
+
+function question2(){
+    var ans4 = document.getElementById("ans4");
+    var ans5 = document.getElementById("ans5");
+    var ans6 = document.getElementById("ans6");
+
+    if(ans4.checked){
+        document.getElementById("results2").innerText ="you will get a band score 9 in IELTS";
+        
+    }else {
+        document.getElementById("results2").innerHTML = 
+        "You will get a band score 1 in IELTS <img src ='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe-1JpxxnIiXOTF1bonucAssSiYMVBFfMPBA&s'>";
+        
+    }
+
+
+
+}
+
+function question3(){
+    var ans7 = document.getElementById("ans7");
+    var ans8 = document.getElementById("ans8");
+    var ans9 = document.getElementById("ans9");
+
+    if(ans8.checked){
+        document.getElementById("results3").innerText ="you will get a band score 9 in IELTS";
+        
+    }else {
+        document.getElementById("results3").innerHTML = 
+        "You will get a band score 1 in IELTS <img src ='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe-1JpxxnIiXOTF1bonucAssSiYMVBFfMPBA&s'>";
+        
+    }
+
+
+
+}
+</script>
+            
+        
+    </body>
